@@ -4,7 +4,7 @@ A cli tic tac toe game.
 
 ### Prerequisites
 
-You need to have g++ installed. Ubuntu 18.04 and 20.04 comes with it.
+You need to have g++ installed.
 ```
 $ sudo apt update
 $ sudo apt install g++
