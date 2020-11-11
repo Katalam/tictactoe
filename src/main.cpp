@@ -48,7 +48,7 @@ int main()
         int w = check_win(sqr);
         if (w > 0)
         {
-            cout << "The winner is player " << w;
+            cout << "The winner is player " << w << "\n";
             return 0;
         }
     }
