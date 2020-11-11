@@ -17,7 +17,7 @@ int main()
         if (i < 2)
             sum_diag[2] = 0;
     }
-    system ("CLS");
+    system("cls||clear");
     cout << "New Game started. Getting ready!\n";
     print_game(sqr);
     for (int i = 0; i < _sqrs; i++)
@@ -43,7 +43,7 @@ int main()
             sqr[idx] = 11;
             decrement_sums(idx);
         }
-        system("CLS");
+        system("cls||clear");
         print_game(sqr);
         int w = check_win(sqr);
         if (w > 0)
